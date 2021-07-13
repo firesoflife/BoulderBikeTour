@@ -1,0 +1,85 @@
+.section-body {
+  background: #000;
+}
+
+.container {
+  background: #333;
+  margin: auto;
+}
+
+.background {
+  position: relative;
+  background: image-url('blur-bike') center;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.title-background {
+  position: relative;
+  display: flex;
+  background-color: #000;
+  opacity: 25%;
+  height: 100vh;
+  max-width: 100%;
+}
+
+.title-content {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  right: 15%;
+  max-width: 90vw;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-title {
+  font-family: $title;
+  font-size: 7vw;
+  color: rgb(197, 197, 197);
+  text-shadow: 4px 4px 8px #000, 0 0 0 #000, 4px 4px 8px #000;
+  line-height: 1.2;
+
+  & .cross-text {
+    text-shadow: 4px 4px 8px #000, 0 0 0 #fff, 4px 4px 8px #000;
+    border: 3px;
+    color: orange;
+    mix-blend-mode: hard-light;
+  }
+}
+
+.sub-title {
+  color: #fff;
+  text-align-last: left;
+  font-size: 2vw;
+}
+
+p {
+  font-size: 1.6rem;
+  font-family: $paragraph-font;
+  color: #fff;
+}
+
+.down-arrow {
+  position: absolute;
+  height: 4rem;
+  width: 100%;
+  bottom: 3%;
+  left: 0;
+  color: #fff;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+
+  & .fa-arrow-down {
+    color: #fff;
+    font-size: 4rem;
+  }
+}
+
+.section-1 {
+  height: 100%;
+}

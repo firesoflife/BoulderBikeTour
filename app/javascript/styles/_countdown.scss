@@ -1,0 +1,46 @@
+.counter-container {
+  height: 50vh;
+  max-width: 70vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.counter-title {
+  text-align: center;
+  font-family: $paragraph-font;
+  font-size: 3.5rem;
+  letter-spacing: 0.3rem;
+  text-shadow: 4px 4px 8px #000, 0 0 0 #fff, 4px 4px 8px #000;
+  border: 3px;
+  color: #ff4e00;
+  mix-blend-mode: hard-light;
+}
+
+.counter-box {
+  display: flex;
+  justify-content: space-evenly;
+
+  .time-box {
+    margin: 0 1rem 0 1rem;
+  }
+
+  .time-unit {
+    text-shadow: 4px 4px 8px #000, 0 0 0 #fff, 4px 4px 8px #000;
+    color: #fff;
+    font-size: 3rem;
+    margin: 3rem 0;
+    padding: 1rem 2rem;
+    &:hover {
+      box-shadow: 4px 4px 8px #000, 0 0 0 #fff, 4px 4px 8px #000;
+    }
+  }
+
+  .time-number {
+    font-family: $paragraph-font;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 4px 4px 8px #000, 0 0 0 #fff, 4px 4px 8px #000;
+  }
+}
