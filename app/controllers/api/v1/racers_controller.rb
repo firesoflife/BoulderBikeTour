@@ -1,5 +1,5 @@
-class RacersController < ApplicationController
-  before_action :set_racer, only: %i[ show edit update destroy ]
+class Api::V1::RacersController < ApplicationController
+  before_action :set_racer, only: %i[ show  ]
 
   # GET /racers or /racers.json
   def index
